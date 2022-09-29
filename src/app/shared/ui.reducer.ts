@@ -9,7 +9,7 @@ export const initialState: State = {
     isLoading: false,
 }
 
-export const counterReducer = createReducer(
+export const uiReducer = createReducer(
     initialState,
     on(isLoading, state => ({
         ...state,
